@@ -3,7 +3,7 @@ apiVersion: "v1"
 metadata:
   name: "nodejs-sample-pipeline"
 spec:
-  type: Git
+  source:
     git:
       uri: https://github.com/garbagego/pipeline.git
   strategy:
