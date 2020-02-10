@@ -7,7 +7,5 @@ spec:
     git:
       uri: https://github.com/garbagego/pipeline.git
   strategy:
-    jenkinsPipelineStrategy:
-      jenkinsfile: 
-        jenkinsfilePath: jenkins/jenkinsfile
-      type: JenkinsPipeline
+    jenkinsPipelineStrategy: 
+      jenkinsfilePath: jenkins/jenkinsfile
