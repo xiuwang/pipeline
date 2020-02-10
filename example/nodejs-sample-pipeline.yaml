@@ -3,6 +3,9 @@ apiVersion: "v1"
 metadata:
   name: "nodejs-sample-pipeline"
 spec:
+  type: Git
+    git:
+      uri: https://github.com/garbagego/pipeline.git
   strategy:
     jenkinsPipelineStrategy:
       jenkinsfile: 
